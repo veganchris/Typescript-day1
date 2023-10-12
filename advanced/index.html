@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https:cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Restaurant Menu</title>
+    <style>
+        @font-face {
+            font-family: myHeaderFont;
+            src: url(./orange_juice_2.0.ttf);
+        }
+
+        h1 {
+            font-family: myHeaderFont, 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Restaurant Menu</h1>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-dark">
+                        <div class="row">
+                            <div class="col-md-6">Name</div>
+                            <div class="col-md-6 d-flex justify-content-end">Price </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item" id="menu-list"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <!-- bootstrap 5.3.2 scripts  -->
+
+    <script src="https:cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
